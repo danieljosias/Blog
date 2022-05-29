@@ -3,3 +3,46 @@
     --secondary-color: #EDD58F;
     --third-color: #1E1E1E;
 }
+
+@media (min-width: 375px){
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35em;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        width: 300px;
+        height: 300px;
+        background-color: var(--primary-color);
+        border-radius: 1em;
+    }
+    
+    .form__title{
+        color: var(--secondary-color);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .form__input{
+        width: 15em;
+        padding: 0.4em;
+        border: none;
+    }
+
+    .form__button{
+        width: 15.9em;
+        padding: 0.4em;
+        background-color: var(--secondary-color);
+        border: none;
+        color: var(--third-color);
+        font-weight: bold;
+    }
+}
