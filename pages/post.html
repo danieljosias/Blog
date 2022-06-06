@@ -25,19 +25,34 @@
             alt="foto de perfil"
             class="header__avatar"
             >
-            <p class="header__nome">Daniel J.</p>
+            <p class="header__name">Bart</p>
         </div>
-        <button class="header__buttonLogout">Logout</button>
+        <div>
+            <button class="header__logoutButton">Logout</button>
+        </div>
     </header>
 
     <main class="main">
         <section class="post__area">
-            
+            <div class="post">
+                <input 
+                type="text"
+                placeholder="Comece seu post incrível!"
+                class="post__input"
+                >
+                
+                <button class="post__button">+</button>
+            </div>
         </section>
 
         <section class="post__section">
-              
+            
         </section>
+
+        <div class="modal">
+            <input class="modal__input" type="text" placeholder="Digite seu novo post...">
+            <button class="modal__button">Enviar</button>
+        </div>
     </main>
     <script type="module" src="../js/post.js"></script>
 </body>

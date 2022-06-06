@@ -4,3 +4,336 @@
     --third-color: #1E1E1E;
 }
 
+/*post area*/
+@media (min-width: 375px){
+    .header{
+        background-color: var(--primary-color);
+        display: flex;
+       justify-content: space-between;
+       padding: 0.5em 1em;
+    }
+    
+    .header div{
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+    }
+    
+    .header__avatar{
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+    }
+    
+    .header__name{
+        color: var(--secondary-color);
+        font-weight: bold;
+    }
+    
+    .header__logoutButton{
+        color: var(--third-color);
+        background-color: var(--secondary-color);
+        width: 10em;
+        padding: 0.5em;
+        font-weight: bold;
+        border: none;
+    }
+    
+    .main{
+        background-color: #D9D9D9;
+        min-height: 50em;
+    }
+    
+    .post__area{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .post{
+        display: flex;
+        box-shadow: 0.1rem 0.1rem 0.2rem #1E1E1E;
+        width: 20em;
+        height: 5em;
+        margin-top: 2em;
+    }
+    
+    .post__input{
+        margin: 1em;    
+        border: none;
+        background-color: #D9D9D9;
+        height: 1em;
+    }
+    
+    .post__button{
+        position: relative;
+        left: 6em;
+        top: 3.5em;
+        
+        width: 2em;
+        height: 2em;
+    
+        background-color: var(--secondary-color);
+        color: var(--third-color);
+        font-weight: bold;
+        border: none;
+    
+    }
+}
+
+@media (min-width: 500px){
+    .header{
+        background-color: var(--primary-color);
+        display: flex;
+       justify-content: space-between;
+       padding: 0.5em 1em;
+    }
+    
+    .header div{
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+    }
+    
+    .header__avatar{
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+    }
+    
+    .header__name{
+        color: var(--secondary-color);
+        font-weight: bold;
+    }
+    
+    .header__logoutButton{
+        color: var(--third-color);
+        background-color: var(--secondary-color);
+        width: 10em;
+        padding: 0.5em;
+        font-weight: bold;
+        border: none;
+    }
+    
+    .main{
+        background-color: #D9D9D9;
+        min-height: 50em;
+    }
+    
+    .post__area{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .post{
+        display: flex;
+        box-shadow: 0.1rem 0.1rem 0.2rem #1E1E1E;
+        width: 25em;
+        height: 5em;
+        margin-top: 2em;
+    }
+    
+    .post__input{
+        margin: 1em;    
+        border: none;
+        background-color: #D9D9D9;
+        height: 1em;
+    }
+    
+    .post__button{
+        position: relative;
+        left: 12em;
+        top: 3.5em;
+        
+        width: 2em;
+        height: 2em;
+    
+        background-color: var(--secondary-color);
+        color: var(--third-color);
+        font-weight: bold;
+        border: none;
+    
+    }
+}
+
+@media (min-width: 768px){
+    .header{
+        background-color: var(--primary-color);
+        display: flex;
+       justify-content: space-between;
+       padding: 0.5em 1em;
+    }
+    
+    .header div{
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+    }
+    
+    .header__avatar{
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+    }
+    
+    .header__name{
+        color: var(--secondary-color);
+        font-weight: bold;
+    }
+    
+    .header__logoutButton{
+        color: var(--third-color);
+        background-color: var(--secondary-color);
+        width: 10em;
+        padding: 0.5em;
+        font-weight: bold;
+        border: none;
+    }
+    
+    .main{
+        background-color: #D9D9D9;
+        min-height: 50em;
+    }
+    
+    .post__area{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .post{
+        display: flex;
+        box-shadow: 0.1rem 0.1rem 0.2rem #1E1E1E;
+        width: 28em;
+        height: 5em;
+        margin-top: 2em;
+    }
+    
+    .post__input{
+        margin: 1em;    
+        border: none;
+        background-color: #D9D9D9;
+        height: 1em;
+    }
+    
+    .post__button{
+        position: relative;
+        left: 16em;
+        top: 3.5em;
+        
+        width: 2em;
+        height: 2em;
+    
+        background-color: var(--secondary-color);
+        color: var(--third-color);
+        font-weight: bold;
+        border: none;
+    
+    }
+}
+
+@media (min-width: 1300px){
+    .header{
+        background-color: var(--primary-color);
+        display: flex;
+       justify-content: space-between;
+       padding: 0.5em 1em;
+    }
+    
+    .header div{
+        display: flex;
+        align-items: center;
+        gap: 0.4em;
+    }
+    
+    .header__avatar{
+        width: 4em;
+        height: 4em;
+        border-radius: 50%;
+    }
+    
+    .header__name{
+        color: var(--secondary-color);
+        font-weight: bold;
+    }
+    
+    .header__logoutButton{
+        color: var(--third-color);
+        background-color: var(--secondary-color);
+        width: 10em;
+        padding: 0.5em;
+        font-weight: bold;
+        border: none;
+    }
+    
+    .main{
+        background-color: #D9D9D9;
+        min-height: 50em;
+    }
+    
+    .post__area{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .post{
+        display: flex;
+        box-shadow: 0.1rem 0.1rem 0.2rem #1E1E1E;
+        width: 30em;
+        height: 5em;
+        margin-top: 2em;
+    }
+    
+    .post__input{
+        margin: 1em;    
+        border: none;
+        background-color: #D9D9D9;
+        height: 1em;
+    }
+    
+    .post__button{
+        position: relative;
+        left: 18em;
+        top: 3.5em;
+        
+        width: 2em;
+        height: 2em;
+    
+        background-color: var(--secondary-color);
+        color: var(--third-color);
+        font-weight: bold;
+        border: none;
+    
+    }
+}
+
+/* modal edit post */
+.modal{
+    visibility: hidden;
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 483px;
+    background-color: var(--secondary-color);
+    position: fixed;
+    top: 210px;
+    left: 433px;
+    height: 174px;/* 174 */
+
+    
+}
+
+.modal__input {
+    width: 231px;
+    margin-left: 79px;
+    margin-top: 77px;/* 77 */
+    height: 24px;
+}
+
+.modal__button{
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    height: 30px; /* 30 tirar border */
+    border: none;
+}
